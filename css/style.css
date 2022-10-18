@@ -44,11 +44,12 @@ body {
 .small-col{
     width: 35%;
     /* background-color: #febfca; */
-    padding: 2rem 4rem;
+    padding: 0 4.5rem;
 }
 
 .small-col>h2 {
     line-height: 2.5rem;
+    font-size: 2rem;
 }
 
 .small-col>p {
