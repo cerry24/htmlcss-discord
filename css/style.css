@@ -52,9 +52,11 @@ body {
 }
 
 .btn {
-    padding: .5rem 1rem;
     border: none;
-    border-radius: 1.2rem;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin-right: 1.5rem;
 }
 
 header{
@@ -112,6 +114,8 @@ nav ul.main-menu li{
 .login-btn {
     color: black;
     background-color: white;
+    padding: .5rem 1rem;
+    font-size: 1.1rem;
 }
 
 div.big-content{
@@ -177,7 +181,7 @@ div#jumbotron{
 div#jumbotron .jumbo-content{
     width: 45%;
     /* height: 350px; */
-    margin: 7.8rem 0;
+    margin: 7.8rem 0 11.8rem 0;
     background-color: #ed81ed;
     text-align: center;
 }
@@ -190,7 +194,11 @@ div#jumbotron .jumbo-content{
 
 .jumbo-content>p {
     font-weight: 500;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1.25rem;
 }
 
-
+.browser-version-btn {
+    color: white;
+    background-color: #23272a;
+}
