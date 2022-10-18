@@ -32,19 +32,27 @@ body {
 }
 
 
-.col{
+/* .col{
     height: 480px;
-}
+} */
 
 .big-col{
     width: 65%;
-    background-color: #1e8ffe;
-
+    /* background-color: #1e8ffe; */
 }
 
 .small-col{
     width: 35%;
-    background-color: #febfca;
+    /* background-color: #febfca; */
+    padding: 2rem 4rem;
+}
+
+.small-col>h2 {
+    line-height: 2.5rem;
+}
+
+.small-col>p {
+    padding-top: 1.5rem;
 }
 
 .bg-grey{
@@ -53,7 +61,7 @@ body {
 
 .btn {
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     padding: 1rem 2rem;
     border-radius: 2rem;
     margin-right: 1.5rem;
@@ -182,13 +190,13 @@ div#jumbotron .jumbo-content{
     width: 45%;
     /* height: 350px; */
     margin: 7.8rem 0 11.8rem 0;
-    background-color: #ed81ed;
+    /* background-color: #ed81ed; */
     text-align: center;
 }
 
 .jumbo-content>h1 {
-    line-height: 4rem;
-    font-size: 3.6rem;
+    line-height: 4.5rem;
+    font-size: 4rem;
     padding-bottom: 3rem;
 }
 
