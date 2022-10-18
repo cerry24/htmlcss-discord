@@ -8,6 +8,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.1rem;
+    line-height: 2rem;
 }
 
 .flex{
@@ -57,7 +58,7 @@ body {
 }
 
 header{
-    background-color: #3161e0;
+    background-color: #255ee9;
     color: white;
     align-items: center;
     /* height: 80px; */
@@ -167,15 +168,29 @@ footer .footer-button{
 
 
 div#jumbotron{
-    background-color: #00008a;
-    height: 450px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    /* height: 450px; */
     width: 100%;
 }
 
 div#jumbotron .jumbo-content{
     width: 45%;
-    height: 350px;
+    /* height: 350px; */
+    margin: 7.8rem 0;
     background-color: #ed81ed;
+    text-align: center;
+}
+
+.jumbo-content>h1 {
+    line-height: 4rem;
+    font-size: 3.6rem;
+    padding-bottom: 3rem;
+}
+
+.jumbo-content>p {
+    font-weight: 500;
+    padding-bottom: 1rem;
 }
 
 
